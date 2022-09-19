@@ -1,0 +1,18 @@
+﻿@model KediYeniViewModel
+<div>yeni</div>
+<form method="post" asp-controller="Kedi" asp-action="Kaydet">
+    <input type="hidden" name="Id" />
+    <br />
+    <label asp-for="Kedi.Adi">Adı</label>
+    <input type="text" asp-for="Kedi.Adi"/>
+    <br />
+    <label asp-for="Kedi.IdCinsi">Cinsi</label>
+    <select asp-for="Kedi.IdCinsi"
+            asp-items="@(new SelectList(Model.cinsler,"IdCinsi","Cinsi"))">
+        <option>Seçiniz</option>
+    </select>
+
+    <br />
+    <label asp-for="Kedi.Cinsiyeti">Cinsiyeti</label>
+    <input type="radio" name="Cinsiyeti" />
+</form>

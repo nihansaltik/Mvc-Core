@@ -1,0 +1,35 @@
+﻿@model List<KediModel>
+<a class="btn btn-warning text-bg-dark text-center float-end mb-2" asp-controller="kedi" asp-action="yeni">YENİ</a>
+
+<div class="card-header bg-dark text-light text-center mt-5">
+    <h2>Kedi Listesi</h2>
+</div>
+<div class="card-body">
+    <div>
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr class="bg-info">
+                    <th class="text-dark">Id</th>
+                    <th class="text-success">Adı</th>
+                    <th class="text-success">Cinsi</th>
+                    <th class="text-success">Cinsiyeti</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var kedi in Model)
+                {
+                    <tr class="bg-light">
+                        <td>@kedi.Id</td>
+                        <td>@kedi.Adi</td>
+                        <td>@kedi.Cinsiyeti</td>
+                        <td>@kedi.IdCinsi</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KediApp", "KediApp.csproj", "{0E4D8E63-CE7B-40E5-954F-EE1A8667F97F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E4D8E63-CE7B-40E5-954F-EE1A8667F97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4D8E63-CE7B-40E5-954F-EE1A8667F97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4D8E63-CE7B-40E5-954F-EE1A8667F97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4D8E63-CE7B-40E5-954F-EE1A8667F97F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3B92955-D27D-4F1B-AC72-C83B8ECF8E4D}
+	EndGlobalSection
+EndGlobal
